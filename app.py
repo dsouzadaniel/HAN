@@ -36,7 +36,7 @@ predicted_rating, highlighted_text = helper.predict(input_text, pretrained_HAN)
 st.header('Output')
 st.subheader('Prediction')
 # Adding 1 because classes are from 0 to 4 for review stars 1 to 5
-st.write("Predicted Rating is : {0}/5".format(predicted_rating+1))
+st.write("Predicted Rating is : {0}/5".format(predicted_rating + 1))
 
 st.subheader('Attention')
 st.markdown(highlighted_text, unsafe_allow_html=True)

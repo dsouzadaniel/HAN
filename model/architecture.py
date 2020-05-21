@@ -4,6 +4,7 @@ import torch.nn as nn
 
 from allennlp.modules.elmo import Elmo, batch_to_ids
 
+
 # Model Definition
 class HanModel(nn.Module):
     def __init__(self,
