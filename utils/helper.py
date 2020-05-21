@@ -93,7 +93,7 @@ def model_train(model, model_criterion, model_optimizer, dataloader):
                                target=batch_labels)
         loss.backward()
         model_optimizer.step()
-        epoch_loss += loss.item() / len(dataloader)
+        epoch_loss += loss.item() / len(batch_input_packets)
     return model, model_criterion, model_optimizer, epoch_loss
 
 
@@ -109,7 +109,7 @@ def model_evaluate(model, model_criterion, dataloader):
                 [output_unnormalized for output_unnormalized, _, _ in batch_output_packets])
             loss = model_criterion(input=batch_output_unnormalized,
                                    target=batch_labels)
-            epoch_loss += loss.item() / len(dataloader)
+            epoch_loss += loss.item() / len(batch_input_packets)
     return epoch_loss
 
 
