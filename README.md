@@ -5,7 +5,7 @@ complete with Yelp Dataloaders and Minibatching Loading for Training
 
 ## Architecture
 
-![HAN Architecture](https://i.ibb.co/ygb4h6q/han-model-architecture.png)
+![HAN Architecture]()
 
 The only modification is that I have swapped out GloVe for Elmo for improved performance :neckbeard: :rocket:
 
@@ -20,7 +20,7 @@ Download the complete dataset at [Yelp Reviews Dataset](https://www.yelp.com/dat
 ## Demo
 :bowtie: I have also implemented a Streamlit App to interact with the model! :bowtie:
 
-![Streamlit App](https://i.ibb.co/z4V303H/han-model-app.png)
+![Streamlit App]()
 
 
 ## Instructions 
