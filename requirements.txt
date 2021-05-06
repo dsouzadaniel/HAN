@@ -28,7 +28,7 @@ entrypoints==0.3
 enum-compat==0.0.3
 flaky==3.6.1
 Flask==1.1.2
-Flask-Cors==3.0.8
+Flask-Cors==3.0.9
 ftfy==5.7
 future==0.18.2
 gevent==20.5.0
